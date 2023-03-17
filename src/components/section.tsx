@@ -10,15 +10,15 @@ function Section({ idVal, text, title, align, img }) {
   return (
     <div
       id={idVal}
-      className={`mb-[80vh] w-full h-fit text-${alignText} grid place-items-${alignClass}`}
+      className={`mb-[80vh] h-fit w-full text-${alignText} grid place-items-${alignClass}`}
     >
       <div
-        className={`text-4xl text-white text-start mt-16 mr-[15vw] border-b-[1px] border-b-slate-500 w-${border} pl-5 
+        className={`mt-16 mr-[15vw] border-b-[1px] border-b-slate-500 text-start text-4xl text-white w-${border} pl-5 
           ${divAngle}`}
       >
         <h2 className={`mr-[4vw] ${angle}`}>{title}</h2>
       </div>
-      <p className="text-white text-lg w-[38vw] mr-[28vw] mt-8 whitespace-pre-line">
+      <p className="mr-[28vw] mt-8 w-[38vw] whitespace-pre-line text-lg text-white">
         {text}
       </p>
       <img src={img} alt="" className="mr-[30vw] mt-4 w-[38vw]" />

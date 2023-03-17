@@ -12,14 +12,15 @@ function Layout() {
   const ghettoImg1 = require("../images/ghetto-img.webp");
   const ghettoImg2 = require("../images/ghetto-img-2.webp");
   const ghettoImg3 = require("../images/ghetto-img-3.webp");
+  const ghettoImg4 = require("../images/ghetto-img-4.webp");
 
   return (
-    <div className="w-full h-fit bg-gray-900 p-8">
+    <div className="h-fit w-full bg-gray-900 p-8">
       <h1 className="text-5xl text-white" id="intro">
         Holocaust Project
       </h1>
-      <p className="text-white mt-2">Nolan Knight</p>
-      <div className="h-px w-[80vw] bg-slate-500 -rotate-2"></div>
+      <p className="mt-2 text-white">Nolan Knight</p>
+      <div className="h-px w-[80vw] -rotate-2 bg-slate-500"></div>
       <Section
         idVal=""
         text={intro}
@@ -53,7 +54,7 @@ function Layout() {
         text={theFinalSolution}
         title="The Final Solution"
         align="right"
-        img={ghettoImg3}
+        img={ghettoImg4}
       />
       <SideNav />
     </div>
