@@ -6,6 +6,7 @@ import whatIsAGhetto from "../data/whatIsAGhetto";
 import typesOfGhettos from "../data/typesOfGhettos";
 import historyOfGhettos from "../data/historyOfGhettos";
 import theFinalSolution from "../data/theFinalSolution";
+import worksCited from "../data/worksCited";
 
 function Layout() {
   const ghettoMap = require("../images/ghetto-map.gif");
@@ -55,6 +56,13 @@ function Layout() {
         title="The Final Solution"
         align="right"
         img={ghettoImg4}
+      />
+      <Section
+        idVal="worksCited"
+        text={worksCited}
+        title="Works Cited"
+        align="left"
+        img=""
       />
       <SideNav />
     </div>
